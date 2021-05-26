@@ -1,0 +1,33 @@
+.idea
+Cargo.lock
+
+#object file
+*.o
+
+#library
+*.a
+
+#share object
+*.so
+*.so.*
+
+#generated proxy
+*_u.c
+*_u.h
+*_t.c
+*_t.h
+bin
+
+**/target
+
+#generated assembly
+third_party/ring/pregenerated
+
+#Bazel
+.clwb
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-rust-sgx-sdk
+bazel-testlogs
+
